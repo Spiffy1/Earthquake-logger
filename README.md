@@ -24,11 +24,11 @@
 
 ## Description
 
-This service collect & provide latest earthquake information around the world. It not a web crawler but more of an app that pull data from public sources. Although, data collection method and db schema design process is similar to that of a traditional pipeline.
+This service collects & provides the latest earthquake information around the world. It is not a web crawler but more of an app that pulls data from public sources. Although, the data collection method and db schema design process is similar to that of a traditional pipeline.
 
-Typically, I'd use a cache to filter out duplicate data but since the amount of data collected is not that much and the insert items is upserted to the database, therefore I decided to not included it in the implementation. However, if you wish to know the architectural design for it, it's include in the docmument folder.
+Typically, I'd use a cache to filter out duplicate data but since the amount of data collected is not that much and the insert items are upserted in the database, therefore I decided to not include it in the implementation. However, if you wish to know the architectural design for it, it's included in the document folder.
 
-Main code quality packages are linter, sonarjs, cspell, betterer.  
+The main code quality packages are linter, sonarjs, cspell, betterer.  
 Further quality procedures such as commit lint, sentry will be added later on.
 
 ## Installation
