@@ -24,7 +24,9 @@
 
 ## Description
 
-This service collect & provide latest information on earth quake
+This service collect & provide latest earthquake information around the world. It not a web crawler but more of an app that pull data from public sources. Although, data collection method and db schema design process is similar to that of a traditional pipeline.
+
+Typically, I'd use a cache to filter out duplicate data but since the amount of data collected is not that much and the insert items is upserted to the database, therefore I decided to not included it in the implementation. However, if you wish to know the architectural design for it, it's include in the docmument folder.
 
 Main code quality packages are linter, sonarjs, cspell, betterer.  
 Further quality procedures such as commit lint, sentry will be added later on.
@@ -118,8 +120,6 @@ curl --location --request GET 'http://localhost:3000/earthquake/average-mag'
 [x] - Apply the data collection system to the first two endpoints  
 [x] - Build an endpoint to query the data collected from the previous task over a timescale.  
 [x] - Describe without implementing how this system could be refactored to handle 500 requests per second  
-[ ] - Handle Error  
-[ ] - Show testing methodoloy
 
 ## Optional
 
