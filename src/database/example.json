@@ -1,0 +1,33 @@
+{
+  "type": "Feature",
+  "properties": {
+    "mag": 0.72,
+    "place": "15km WSW of Toms Place, CA",
+    "time": 1659105274170,
+    "updated": 1659118391988,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73764061",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73764061.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": null,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 8,
+    "net": "nc",
+    "code": "73764061",
+    "ids": ",nc73764061,",
+    "sources": ",nc,",
+    "types": ",nearby-cities,origin,phase-data,scitech-link,",
+    "nst": 8,
+    "dmin": 0.07589,
+    "rms": 0.01,
+    "gap": 330,
+    "magType": "md",
+    "type": "earthquake",
+    "title": "M 0.7 - 15km WSW of Toms Place, CA"
+  },
+  "geometry": { "type": "Point", "coordinates": [-118.84, 37.5145, 6.17] },
+  "id": "nc73764061"
+}
